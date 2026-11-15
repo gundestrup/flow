@@ -21,7 +21,7 @@ jobs:
 
       - name: Fetch repositories
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
         run: |
 
           gh repo list gundestrup \
