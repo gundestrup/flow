@@ -1,8 +1,12 @@
 # Borg-Collective Flow software overview
 
 <div id="repos">
-Loading repositories...
+Loading...
 </div>
+ 
+<script>
+window.repoCategories = {{ site.data.categories | jsonify }};
+</script>
  
 <script src="/assets/js/repos.js"></script>
 
