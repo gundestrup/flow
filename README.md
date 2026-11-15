@@ -8,7 +8,7 @@ Loading...
 window.repoCategories = {{ site.data.categories | jsonify }};
 </script>
  
-<script src="/assets/js/repos.js"></script>
+<script src="/flow/assets/js/repos.js"></script>
 
 ## Jekyll plugins
 | Name  | Description | Latest Release |
