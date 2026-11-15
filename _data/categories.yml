@@ -1,0 +1,21 @@
+- name: Jekyll Plugins
+  description: Plugins til Jekyll-baserede websites.
+  repos:
+    - jekyll-plugin-1
+    - jekyll-plugin-2
+
+- name: Websites
+  description: Færdige websites og webapplikationer.
+  repos:
+    - website-project
+
+- name: Medical
+  description: Sundhedsfaglige projekter.
+  repos:
+    - Sundhedsplatformen
+
+- name: Tools
+  description: Diverse værktøjer og scripts.
+  repos:
+    - research-article-fetcher
+    - tools
