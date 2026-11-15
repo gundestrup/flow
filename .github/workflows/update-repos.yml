@@ -26,14 +26,8 @@ jobs:
 
           gh repo list gundestrup \
             --limit 200 \
-            --json \
-              name,\
-              description,\
-              url,\
-              homepageUrl,\
-              isArchived,\
-              primaryLanguage,\
-              repositoryTopics \
+            --json
+            name,description,url,homepageUrl,isArchived,primaryLanguage,repositoryTopics \
             > _data/repos.json
 
       - name: Commit changes
