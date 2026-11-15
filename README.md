@@ -1,15 +1,31 @@
 # Borg-Collective Flow software overview
 
-<div id="repo-overview">
-Loading ...
-</div>
+{% for category in site.data.categories %}
  
-<script>
-window.repoCategories = {{ site.data.categories | jsonify }};
-window.githubUser = "gundestrup";
-</script>
+<h2>{{ category.name }}</h2>
  
-<script src="/flow/assets/js/repos.js"></script>
+<p>{{ category.description }}</p>
+ 
+<table class="repo-table">
+ 
+<thead>
+<tr>
+<th>Repository</th>
+<th>Description</th>
+<th>Status</th>
+</tr>
+</thead>
+ 
+<tbody>
+ 
+{% for repo in category.repos %}
+{% include repo-row.html repo=repo %}
+{% endfor %}
+ 
+</tbody>
+</table>
+ 
+{% endfor %}
 
 ## Jekyll plugins
 | Name  | Description | Latest Release |
