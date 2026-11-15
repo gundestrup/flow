@@ -8,9 +8,8 @@
 {% for category in site.data.categories %}
 <li>
   <a href="#{{ category.name | slugify }}">
-    {{ category.name }}
+    {{ category.name }} <span class="count">{{ category.repos.size }}</span>
   </a>
-  ({{ category.repos.size }})
 </li>
 {% endfor %}
 </ul>
