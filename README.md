@@ -1,6 +1,6 @@
 # Borg-Collective Flow software overview
 
-<nav class="toc">
+<nav class="toc" aria-label="Categories">
 
 <h2>Categories</h2>
 
@@ -28,9 +28,9 @@
 
 <thead>
 <tr>
-<th>Repository</th>
-<th>Description</th>
-<th>Status</th>
+<th scope="col">Repository</th>
+<th scope="col">Description</th>
+<th scope="col">Status</th>
 </tr>
 </thead>
 
@@ -46,3 +46,10 @@
 </section>
 
 {% endfor %}
+
+## License
+
+Copyright (C) 2026 Svend Gundestrup
+
+This project is licensed under the GNU Affero General Public License
+v3.0 — see [LICENSE](LICENSE).

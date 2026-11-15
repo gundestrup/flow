@@ -1,13 +1,28 @@
+/* ---------- design tokens ---------- */
+
+:root {
+    --link: #069;
+    --link-hover: #046;
+    --muted: #61778b;
+    --edge: #c6d5de;
+}
+
 /* ---------- header brand / logo ---------- */
 
-header .brand {
+.wrapper > header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .25);
+}
+
+.wrapper > header .brand {
     display: flex;
     align-items: center;
     gap: 14px;
-    padding-right: 190px;
 }
 
-header .logo-link {
+.wrapper > header .logo-link {
     flex: 0 0 auto;
 }
 
@@ -18,13 +33,18 @@ header .logo-link {
     filter: drop-shadow(0 1px 1px rgba(0, 0, 0, .2));
 }
 
-header .brand-text {
+.wrapper > header .brand-text {
     min-width: 0;
 }
 
-header .brand-text p {
+.wrapper > header .brand-text p {
     width: auto;
     max-width: 460px;
+    font-size: 16px;
+}
+
+.wrapper > section {
+    font-size: 18px;
 }
 
 /* ---------- table of contents ---------- */
@@ -41,20 +61,20 @@ header .brand-text p {
 .toc a {
     display: inline-block;
     padding: .35rem .75rem;
-    border: 1px solid #c6d5de;
+    border: 1px solid var(--edge);
     border-radius: 999px;
     background: #fff;
     font-size: .85em;
-    color: #069;
+    color: var(--link);
 }
 
 .toc a:hover {
-    border-color: #069;
+    border-color: var(--link);
     box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
 }
 
 .toc .count {
-    color: #9aa7b0;
+    color: #66707a;
     font-size: .8em;
 }
 
@@ -63,7 +83,7 @@ header .brand-text p {
 
     .toc {
         position: fixed;
-        top: 90px;
+        top: 118px;
         left: max(14px, calc(50vw - 370px - 200px));
         width: 176px;
         max-height: 80vh;
@@ -82,7 +102,7 @@ header .brand-text p {
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: .08em;
-        color: #61778b;
+        color: var(--muted);
     }
 
     .toc ul {
@@ -98,26 +118,29 @@ header .brand-text p {
         display: block;
         padding: .35rem .5rem;
         border: none;
-        border-left: 2px solid #c6d5de;
+        border-left: 2px solid var(--edge);
         border-radius: 0;
         background: transparent;
-        font-size: .8rem;
+        font-size: .95rem;
         line-height: 1.35;
-        color: #556;
+        color: #444;
     }
 
     .toc a:hover {
-        border-left-color: #069;
-        color: #069;
-        background: rgba(0, 102, 153, .07);
+        border-left-color: var(--link);
+        color: var(--link-hover);
+        background: rgba(0, 102, 153, .1);
         box-shadow: none;
     }
 }
 
 /* ---------- categories ---------- */
 
-html {
-    scroll-behavior: smooth;
+@media (prefers-reduced-motion: no-preference) {
+
+    html {
+        scroll-behavior: smooth;
+    }
 }
 
 .repo-category {
@@ -125,7 +148,7 @@ html {
 }
 
 .repo-category h2 {
-    scroll-margin-top: 1rem;
+    scroll-margin-top: 7.5rem;
 }
 
 .category-description {
@@ -145,7 +168,7 @@ html {
     font-size: .8em;
     text-transform: uppercase;
     letter-spacing: .04em;
-    color: #61778b;
+    color: var(--muted);
 }
 
 .repo-table td {
