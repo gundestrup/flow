@@ -9,7 +9,7 @@ window.repoCategories = {{ site.data.categories | jsonify }};
 window.githubUser = "gundestrup";
 </script>
  
-<script src="/assets/js/repos.js"></script>
+<script src="/flow/assets/js/repos.js"></script>
 
 ## Jekyll plugins
 | Name  | Description | Latest Release |
