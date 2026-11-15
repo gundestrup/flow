@@ -1,95 +1,127 @@
-const categories = {
-  "Jekyll Plugins": [
-    "jekyll-plugin-1",
-    "jekyll-plugin-2"
-  ],
+const USER = "gundestrup";
 
-  "Websites": [
-    "website-project"
-  ],
+async function getRepo(repo) {
+    const response = await fetch(
+        `https://api.github.com/repos/${USER}/${repo}`
+    );
 
-  "Webserver Tools": [
-    "server-tool"
-  ],
-
-  "Other": [
-    "research-article-fetcher",
-    "Sundhedsplatformen",
-    "tools"
-  ]
-};
-
-const user = "gundestrup";
-
-async function getRepo(repoName) {
-  const response = await fetch(
-    `https://api.github.com/repos/${user}/${repoName}`
-  );
-
-  if (!response.ok) {
-    return null;
-  }
-
-  return await response.json();
+    return response.ok
+        ? await response.json()
+        : null;
 }
 
-async function buildPage() {
-  const container = document.getElementById("repos");
-  container.innerHTML = "";
+async function getLatestTag(repo) {
+    const response = await fetch(
+        `https://api.github.com/repos/${USER}/${repo}/tags`
+    );
 
-  for (const [category, repos] of Object.entries(categories)) {
+    if (!response.ok) return null;
 
-    const heading = document.createElement("h2");
-    heading.textContent = category;
-    container.appendChild(heading);
+    const tags = await response.json();
 
-    const table = document.createElement("table");
+    if (!tags.length) return null;
 
-    table.innerHTML = `
-      <thead>
-        <tr>
-          <th>Repository</th>
-          <th>Description</th>
-          <th>Version</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    `;
+    const tag = tags[0];
 
-    const tbody = table.querySelector("tbody");
+    const commitResponse = await fetch(
+        tag.commit.url
+    );
 
-    for (const repoName of repos) {
-
-      const repo = await getRepo(repoName);
-
-      if (!repo) continue;
-
-      const row = document.createElement("tr");
-
-      row.innerHTML = `
-        <td>
-          <a href="${repo.html_url}">
-            ${repo.name}
-          </a>
-        </td>
-
-        <td>
-          ${repo.description ?? ""}
-        </td>
-
-        <td>
-          <img
-            src="https://img.shields.io/github/v/tag/${user}/${repo.name}"
-            alt="version"
-          >
-        </td>
-      `;
-
-      tbody.appendChild(row);
+    if (!commitResponse.ok) {
+        return {
+            name: tag.name,
+            date: ""
+        };
     }
 
-    container.appendChild(table);
-  }
+    const commit = await commitResponse.json();
+
+    return {
+        name: tag.name,
+        date: commit.commit.committer.date
+    };
 }
 
-buildPage();
+async function createTable(category) {
+
+    const section = document.createElement("section");
+
+    section.innerHTML = `
+        <h2>${category.name}</h2>
+        <p>${category.description}</p>
+
+        <table>
+            <thead>
+            <tr>
+                <th>Repository</th>
+                <th>Description</th>
+                <th>Latest Tag</th>
+                <th>Date</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    `;
+
+    const tbody = section.querySelector("tbody");
+
+    for (const repoName of category.repos) {
+
+        const repo = await getRepo(repoName);
+
+        if (!repo) continue;
+
+        const tag = await getLatestTag(repoName);
+
+        const row = document.createElement("tr");
+
+        row.innerHTML = `
+            <td>
+                <a href="${repo.html_url}">
+                    ${repo.name}
+                </a>
+            </td>
+
+            <td>
+                ${repo.description || ""}
+            </td>
+
+            <td>
+                ${
+                    tag
+                    ? `<img src="https://img.shields.io/badge/tag-${encodeURIComponent(tag.name)}-blue">`
+                    : "-"
+                }
+            </td>
+
+            <td>
+                ${
+                    tag
+                    ? new Date(tag.date).toLocaleDateString()
+                    : "-"
+                }
+            </td>
+        `;
+
+        tbody.appendChild(row);
+    }
+
+    return section;
+}
+
+async function render() {
+
+    const container =
+        document.getElementById("repos");
+
+    container.innerHTML = "";
+
+    for (const category of window.repoCategories) {
+
+        container.appendChild(
+            await createTable(category)
+        );
+    }
+}
+
+render();
