@@ -1,0 +1,42 @@
+name: Update Repository Metadata
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "0 3 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Fetch repositories
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+
+          gh repo list gundestrup \
+            --limit 200 \
+            --json \
+              name,\
+              description,\
+              url,\
+              homepageUrl,\
+              isArchived,\
+              primaryLanguage,\
+              repositoryTopics \
+            > _data/repos.json
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: Update repository metadata
