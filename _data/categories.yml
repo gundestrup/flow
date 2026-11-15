@@ -1,21 +1,41 @@
-- name: Jekyll Plugins
-  description: Plugins til Jekyll-baserede websites.
+- name: Jekyll Plugins functions
+  description: Plugins for Jekyll-based websites.
   repos:
-    - jekyll-plugin-1
-    - jekyll-plugin-2
+    - jekyll-imgflow-vscode
+    - jekyll-documents
+    - jekyll-imgflow
+    - jekyll-theme-flow
+    - jekyll-icon-flow
+    - jekyll-client-search
+    - jekyll-paginate-v3
 
-- name: Websites
-  description: Færdige websites og webapplikationer.
+- name: Jekyll Plugins Optimization
+  description: Plugins for Jekyll-based websites deployment optmization
   repos:
-    - website-project
+    - jekyll-minify-flow
+    - jekyll-compress-flow
+    - jekyll-fingerprint-flow
 
-- name: Medical
-  description: Sundhedsfaglige projekter.
+
+- name: Website/Server/Project Tools
+  description: Website tools and project production tools
   repos:
-    - Sundhedsplatformen
+    - website-vitals-flow
+    - logo-generator-flow
+    - pgdog-dynamic-config
+    - J2XML
+    
+
+- name: Medical/Research
+  description: Assorted tools for research and calculations
+  repos:
+    - obsidian-research
+    - MediCalc
 
 - name: Tools
-  description: Diverse værktøjer og scripts.
+  description: Assorted tools for Knowlege and development
   repos:
-    - research-article-fetcher
+    - cred-align-flow
     - tools
+    - Knowledge-BA46-Flow
+    - stateful-docker-migration-flow
