@@ -24,7 +24,29 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
 
-          gh repo list gundestrup --limit 200 --json name,description,url,homepageUrl,isArchived,primaryLanguage,repositoryTopics | jq --sort-keys '[.[] | . + {slug: (.name | ascii_downcase)}]' > _data/repos.json
+          gh repo list gundestrup --limit 200 --json name,description,url,homepageUrl,isArchived,primaryLanguage,repositoryTopics > /tmp/repos_raw.json
+
+          : > /tmp/versions.jsonl
+          for repo in $(jq -r '.[].name' /tmp/repos_raw.json); do
+            if ! ver=$(gh api "repos/gundestrup/$repo/releases/latest" --jq '.tag_name' 2>/dev/null); then
+              ver=""
+            fi
+            if [ -z "$ver" ]; then
+              if ! ver=$(gh api "repos/gundestrup/$repo/tags?per_page=100" \
+                --jq '[.[].name] | max_by(sub("^[vV]";"") | split(".") | map(tonumber? // 0) | .[0:3]) // empty' \
+                2>/dev/null); then
+                ver=""
+              fi
+            fi
+            jq -cn --arg n "$repo" --arg v "$ver" \
+              '{($n): (if $v == "" then null else $v end)}' >> /tmp/versions.jsonl
+          done
+
+          jq --sort-keys -n \
+            --slurpfile repos /tmp/repos_raw.json \
+            --slurpfile vers /tmp/versions.jsonl \
+            '($vers | add) as $vmap | $repos[0] | map(. as $r | $r + {slug: ($r.name | ascii_downcase), version: $vmap[$r.name]})' \
+            > _data/repos.json
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v7

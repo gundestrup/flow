@@ -5,11 +5,12 @@
     "isArchived": false,
     "name": "flow",
     "primaryLanguage": {
-      "name": "JavaScript"
+      "name": "HTML"
     },
     "repositoryTopics": null,
     "slug": "flow",
-    "url": "https://github.com/gundestrup/flow"
+    "url": "https://github.com/gundestrup/flow",
+    "version": null
   },
   {
     "description": "Go CLI + loopback browser editor that renders per-site logos from a shared SVG {{placeholder}} template and JSON configs — resvg master PNG, then pixel-identical WebP/AVIF/JPEG via cwebp/avifenc.",
@@ -70,7 +71,8 @@
       }
     ],
     "slug": "logo-generator-flow",
-    "url": "https://github.com/gundestrup/logo-generator-flow"
+    "url": "https://github.com/gundestrup/logo-generator-flow",
+    "version": "v0.5.2"
   },
   {
     "description": "Self-contained web performance monitor — real-Chrome Core Web Vitals + HTTP checks (h2/h3, compression, caching), dashboard + scheduler, IDE-callable MCP. Single Go binary, SQLite.",
@@ -128,7 +130,8 @@
       }
     ],
     "slug": "website-vitals-flow",
-    "url": "https://github.com/gundestrup/website-vitals-flow"
+    "url": "https://github.com/gundestrup/website-vitals-flow",
+    "version": "v0.2.1"
   },
   {
     "description": "Flexible, configurable pagination for Jekyll websites.",
@@ -153,7 +156,8 @@
       }
     ],
     "slug": "jekyll-paginate-v3",
-    "url": "https://github.com/gundestrup/jekyll-paginate-v3"
+    "url": "https://github.com/gundestrup/jekyll-paginate-v3",
+    "version": "v0.2.2.alpha"
   },
   {
     "description": "KBM-flow (Go CLI + local web dashboard, alpha): (1) knowledge curator for knowledge-base-mcp-server — scans Markdown, LLM-assisted fixes, human-reviewed applies; (2) dev dashboard — GitHub/Forgejo PRs & CI, Sonar/Semgrep/Codecov/CodeFactor, gem/npm/Node drift. Read-only.",
@@ -220,7 +224,8 @@
       }
     ],
     "slug": "knowledge-ba46-flow",
-    "url": "https://github.com/gundestrup/Knowledge-BA46-Flow"
+    "url": "https://github.com/gundestrup/Knowledge-BA46-Flow",
+    "version": "v0.6.0"
   },
   {
     "description": "jekyll-minify-flow — Jekyll plugin that minifies HTML, CSS, JS and SCSS output using the minify-html Rust crate and Lightning CSS. Fork of jekyll-minify-html-rs.",
@@ -260,7 +265,8 @@
       }
     ],
     "slug": "jekyll-minify-flow",
-    "url": "https://github.com/gundestrup/jekyll-minify-flow"
+    "url": "https://github.com/gundestrup/jekyll-minify-flow",
+    "version": "v1.2.1"
   },
   {
     "description": "This MCP server provides tools for listing and retrieving content from different knowledge bases.",
@@ -272,7 +278,8 @@
     },
     "repositoryTopics": null,
     "slug": "knowledge-base-mcp-server",
-    "url": "https://github.com/gundestrup/knowledge-base-mcp-server"
+    "url": "https://github.com/gundestrup/knowledge-base-mcp-server",
+    "version": null
   },
   {
     "description": "Local privat knowlege sharing between projects and tools",
@@ -284,7 +291,8 @@
     },
     "repositoryTopics": null,
     "slug": "engineering-memory",
-    "url": "https://github.com/gundestrup/engineering-memory"
+    "url": "https://github.com/gundestrup/engineering-memory",
+    "version": null
   },
   {
     "description": "Medical calculator",
@@ -312,7 +320,8 @@
       }
     ],
     "slug": "medicalc",
-    "url": "https://github.com/gundestrup/MediCalc"
+    "url": "https://github.com/gundestrup/MediCalc",
+    "version": "v0.1.0"
   },
   {
     "description": "A dynamic sidecar for pgdog that updates the config and userfile",
@@ -334,7 +343,8 @@
       }
     ],
     "slug": "pgdog-dynamic-config",
-    "url": "https://github.com/gundestrup/pgdog-dynamic-config"
+    "url": "https://github.com/gundestrup/pgdog-dynamic-config",
+    "version": "0.3.0"
   },
   {
     "description": "Jekyll static document generator",
@@ -362,7 +372,8 @@
       }
     ],
     "slug": "jekyll-documents",
-    "url": "https://github.com/gundestrup/jekyll-documents"
+    "url": "https://github.com/gundestrup/jekyll-documents",
+    "version": "v0.7.9"
   },
   {
     "description": "Safely migrate vendor-UI or docker-run containers into reviewed, per-container Docker Compose projects — without data loss",
@@ -414,7 +425,8 @@
       }
     ],
     "slug": "stateful-docker-migration-flow",
-    "url": "https://github.com/gundestrup/stateful-docker-migration-flow"
+    "url": "https://github.com/gundestrup/stateful-docker-migration-flow",
+    "version": "v0.0.1-alpha"
   },
   {
     "description": "J2XML",
@@ -442,7 +454,8 @@
       }
     ],
     "slug": "j2xml",
-    "url": "https://github.com/gundestrup/j2xml"
+    "url": "https://github.com/gundestrup/j2xml",
+    "version": "v4.5.8"
   },
   {
     "description": "Fetch research article metadata from PubMed, PMC, DOI, arXiv, and Web of Science links automatically.",
@@ -485,7 +498,8 @@
       }
     ],
     "slug": "obsidian-research",
-    "url": "https://github.com/gundestrup/obsidian-research"
+    "url": "https://github.com/gundestrup/obsidian-research",
+    "version": "1.4.15"
   },
   {
     "description": "Provider-agnostic secret and CI variable synchronization with drift detection across repository hosting platforms.",
@@ -537,7 +551,8 @@
       }
     ],
     "slug": "cred-align-flow",
-    "url": "https://github.com/gundestrup/cred-align-flow"
+    "url": "https://github.com/gundestrup/cred-align-flow",
+    "version": "v0.2.3"
   },
   {
     "description": "Official repository for CSL 1.0 citation styles.",
@@ -549,7 +564,8 @@
     },
     "repositoryTopics": null,
     "slug": "styles",
-    "url": "https://github.com/gundestrup/styles"
+    "url": "https://github.com/gundestrup/styles",
+    "version": null
   },
   {
     "description": "⚡️ Convert, compress, resize, annotate, markup, draw, crop, rotate, flip, align images directly in Obsidian. Drag-resize, rename with variables, batch process. WEBP, JPG, PNG, HEIC, TIF.",
@@ -561,7 +577,8 @@
     },
     "repositoryTopics": null,
     "slug": "obsidian-image-converter",
-    "url": "https://github.com/gundestrup/obsidian-image-converter"
+    "url": "https://github.com/gundestrup/obsidian-image-converter",
+    "version": null
   },
   {
     "description": "ImgFlow provides automatic image optimization for Jekyll with support for multiple providers (Sharp, Imgproxy, ImageMagick, LibVips), multiple formats (AVIF, WebP, PNG, JPG), and responsive image generation with modern picture tags.",
@@ -598,7 +615,8 @@
       }
     ],
     "slug": "jekyll-imgflow",
-    "url": "https://github.com/gundestrup/jekyll-imgflow"
+    "url": "https://github.com/gundestrup/jekyll-imgflow",
+    "version": "v0.4.5"
   },
   {
     "description": "VS Code companion for jekyll-imgflow — Liquid tag completion for imgflow, documents and icon tags",
@@ -626,7 +644,8 @@
       }
     ],
     "slug": "jekyll-imgflow-vscode",
-    "url": "https://github.com/gundestrup/jekyll-imgflow-vscode"
+    "url": "https://github.com/gundestrup/jekyll-imgflow-vscode",
+    "version": "v0.2.7"
   },
   {
     "description": "Content-hash URL cache busting for Jekyll HTML output — drop-in post-write ?v= fingerprinting, no template changes",
@@ -657,7 +676,8 @@
       }
     ],
     "slug": "jekyll-fingerprint-flow",
-    "url": "https://github.com/gundestrup/jekyll-fingerprint-flow"
+    "url": "https://github.com/gundestrup/jekyll-fingerprint-flow",
+    "version": "v0.1.2"
   },
   {
     "description": "Iconpack gem for Jekyll",
@@ -688,7 +708,8 @@
       }
     ],
     "slug": "jekyll-icon-flow",
-    "url": "https://github.com/gundestrup/jekyll-icon-flow"
+    "url": "https://github.com/gundestrup/jekyll-icon-flow",
+    "version": "v0.2.1"
   },
   {
     "description": "Jekyll Themes using Bulma and Alpinejs.",
@@ -722,7 +743,8 @@
       }
     ],
     "slug": "jekyll-theme-flow",
-    "url": "https://github.com/gundestrup/jekyll-theme-flow"
+    "url": "https://github.com/gundestrup/jekyll-theme-flow",
+    "version": "v0.3.2"
   },
   {
     "description": "Browser compression gem for Jekyll - Brotli (br) - Zstandard (zst) - Gzip (gz)",
@@ -759,7 +781,8 @@
       }
     ],
     "slug": "jekyll-compress-flow",
-    "url": "https://github.com/gundestrup/jekyll-compress-flow"
+    "url": "https://github.com/gundestrup/jekyll-compress-flow",
+    "version": "v0.2.2"
   },
   {
     "description": "Search plugin for Jekyll, using (MiniSearch, ElasticLunr) and semantic search via LLM",
@@ -796,7 +819,8 @@
       }
     ],
     "slug": "jekyll-client-search",
-    "url": "https://github.com/gundestrup/jekyll-client-search"
+    "url": "https://github.com/gundestrup/jekyll-client-search",
+    "version": "v0.5.1"
   },
   {
     "description": "Update Synology's Docker version to the latest Docker",
@@ -808,7 +832,8 @@
     },
     "repositoryTopics": null,
     "slug": "synology-docker",
-    "url": "https://github.com/gundestrup/synology-docker"
+    "url": "https://github.com/gundestrup/synology-docker",
+    "version": null
   },
   {
     "description": "knowledge-base-mcp-server IDE plugin connect",
@@ -818,7 +843,8 @@
     "primaryLanguage": null,
     "repositoryTopics": null,
     "slug": "knowledge-base-mcp-server-ide-flow",
-    "url": "https://github.com/gundestrup/knowledge-base-mcp-server-IDE-flow"
+    "url": "https://github.com/gundestrup/knowledge-base-mcp-server-IDE-flow",
+    "version": null
   },
   {
     "description": "Self-hosted Rails error dashboard for full ownership and zero recurring cost.",
@@ -830,7 +856,8 @@
     },
     "repositoryTopics": null,
     "slug": "rails_error_dashboard",
-    "url": "https://github.com/gundestrup/rails_error_dashboard"
+    "url": "https://github.com/gundestrup/rails_error_dashboard",
+    "version": null
   },
   {
     "description": "Tools / scripts that are helpful",
@@ -861,7 +888,8 @@
       }
     ],
     "slug": "tools",
-    "url": "https://github.com/gundestrup/tools"
+    "url": "https://github.com/gundestrup/tools",
+    "version": null
   },
   {
     "description": "",
@@ -871,7 +899,8 @@
     "primaryLanguage": null,
     "repositoryTopics": null,
     "slug": "scripts",
-    "url": "https://github.com/gundestrup/scripts"
+    "url": "https://github.com/gundestrup/scripts",
+    "version": "v0.1.0"
   },
   {
     "description": "Samlet information for Sundhedsplatformen - SmartPhrases osv",
@@ -881,7 +910,8 @@
     "primaryLanguage": null,
     "repositoryTopics": null,
     "slug": "sundhedsplatformen",
-    "url": "https://github.com/gundestrup/Sundhedsplatformen"
+    "url": "https://github.com/gundestrup/Sundhedsplatformen",
+    "version": null
   },
   {
     "description": "Rails app for flashcard categories and learning management with authentication, authorization and quality automation",
@@ -903,7 +933,8 @@
       }
     ],
     "slug": "recall",
-    "url": "https://github.com/gundestrup/recall"
+    "url": "https://github.com/gundestrup/recall",
+    "version": null
   },
   {
     "description": "Homemade intranet — shared bookmarks via RSS/XML, recipes, shopping lists, movie database",
@@ -928,7 +959,8 @@
       }
     ],
     "slug": "enterprise",
-    "url": "https://github.com/gundestrup/enterprise"
+    "url": "https://github.com/gundestrup/enterprise",
+    "version": "rails2"
   },
   {
     "description": "acts_as_authenticated Ruby on Rails authentication system",
@@ -940,7 +972,8 @@
     },
     "repositoryTopics": null,
     "slug": "acts_as_authenticated",
-    "url": "https://github.com/gundestrup/acts_as_authenticated"
+    "url": "https://github.com/gundestrup/acts_as_authenticated",
+    "version": "2.0"
   },
   {
     "description": "The Data Scientist’s Toolbox",
@@ -950,7 +983,8 @@
     "primaryLanguage": null,
     "repositoryTopics": null,
     "slug": "datasciencecoursera",
-    "url": "https://github.com/gundestrup/datasciencecoursera"
+    "url": "https://github.com/gundestrup/datasciencecoursera",
+    "version": null
   },
   {
     "description": "",
@@ -962,7 +996,8 @@
     },
     "repositoryTopics": null,
     "slug": "scutwork",
-    "url": "https://github.com/gundestrup/scutwork"
+    "url": "https://github.com/gundestrup/scutwork",
+    "version": null
   },
   {
     "description": "LSCache plugin for Joomla ",
@@ -974,7 +1009,8 @@
     },
     "repositoryTopics": null,
     "slug": "lscache-joomla",
-    "url": "https://github.com/gundestrup/lscache-joomla"
+    "url": "https://github.com/gundestrup/lscache-joomla",
+    "version": null
   },
   {
     "description": "Homelab setup",
@@ -986,7 +1022,8 @@
     },
     "repositoryTopics": null,
     "slug": "homelab",
-    "url": "https://github.com/gundestrup/homelab"
+    "url": "https://github.com/gundestrup/homelab",
+    "version": null
   },
   {
     "description": "Repository for Programming Assignment 2 for R Programming on Coursera",
@@ -998,7 +1035,8 @@
     },
     "repositoryTopics": null,
     "slug": "programmingassignment2",
-    "url": "https://github.com/gundestrup/ProgrammingAssignment2"
+    "url": "https://github.com/gundestrup/ProgrammingAssignment2",
+    "version": null
   },
   {
     "description": "Exception Notifier Plugin for Rails",
@@ -1010,6 +1048,7 @@
     },
     "repositoryTopics": null,
     "slug": "exception_notification",
-    "url": "https://github.com/gundestrup/exception_notification"
+    "url": "https://github.com/gundestrup/exception_notification",
+    "version": "v1.2.0"
   }
 ]

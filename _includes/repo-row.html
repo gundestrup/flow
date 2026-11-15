@@ -23,13 +23,17 @@
 
   <td>
     {% if entry %}
-    <img
-      alt="updated"
-      src="https://img.shields.io/github/last-commit/gundestrup/{{ entry.name }}?style=flat-square&label=updated">
+    <a href="{{ entry.url }}/commits">
+      <img
+        alt="updated"
+        src="https://img.shields.io/github/last-commit/gundestrup/{{ entry.name }}?style=flat-square&label=updated">
+    </a>
 
-    <img
-      alt="version"
-      src="https://img.shields.io/github/v/tag/gundestrup/{{ entry.name }}?sort=semver&style=flat-square&label=version">
+    <a href="{{ entry.url }}/tags">
+      <img
+        alt="version"
+        src="https://img.shields.io/badge/version-{{ entry.version | default: "none" | replace: "-", "--" }}-007ec6?style=flat-square">
+    </a>
     {% endif %}
   </td>
 
