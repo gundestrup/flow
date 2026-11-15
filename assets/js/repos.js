@@ -1,127 +1,153 @@
-const USER = "gundestrup";
+const CACHE_HOURS = 24;
 
-async function getRepo(repo) {
-    const response = await fetch(
-        `https://api.github.com/repos/${USER}/${repo}`
-    );
+async function getRepo(repoName) {
 
-    return response.ok
-        ? await response.json()
-        : null;
-}
+    const cacheKey = `repo-${repoName}`;
 
-async function getLatestTag(repo) {
-    const response = await fetch(
-        `https://api.github.com/repos/${USER}/${repo}/tags`
-    );
+    const cached =
+        localStorage.getItem(cacheKey);
 
-    if (!response.ok) return null;
+    if (cached) {
 
-    const tags = await response.json();
+        const data = JSON.parse(cached);
 
-    if (!tags.length) return null;
+        const age =
+            (Date.now() - data.timestamp)
+            / 1000 / 60 / 60;
 
-    const tag = tags[0];
-
-    const commitResponse = await fetch(
-        tag.commit.url
-    );
-
-    if (!commitResponse.ok) {
-        return {
-            name: tag.name,
-            date: ""
-        };
+        if (age < CACHE_HOURS) {
+            return data.repo;
+        }
     }
 
-    const commit = await commitResponse.json();
+    try {
 
-    return {
-        name: tag.name,
-        date: commit.commit.committer.date
-    };
+        const response = await fetch(
+            `https://api.github.com/repos/${window.githubUser}/${repoName}`
+        );
+
+        if (!response.ok) {
+            throw new Error();
+        }
+
+        const repo = await response.json();
+
+        localStorage.setItem(
+            cacheKey,
+            JSON.stringify({
+                timestamp: Date.now(),
+                repo: repo
+            })
+        );
+
+        return repo;
+
+    } catch {
+
+        if (cached) {
+            return JSON.parse(cached).repo;
+        }
+
+        return null;
+    }
 }
 
-async function createTable(category) {
+function createBadgeCell(repo) {
 
-    const section = document.createElement("section");
+    return `
+        <img
+          alt="version"
+          src="https://img.shields.io/github/v/tag/${window.githubUser}/${repo.name}?sort=semver"
+        >
 
-    section.innerHTML = `
-        <h2>${category.name}</h2>
-        <p>${category.description}</p>
-
-        <table>
-            <thead>
-            <tr>
-                <th>Repository</th>
-                <th>Description</th>
-                <th>Latest Tag</th>
-                <th>Date</th>
-            </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
+        <img
+          alt="updated"
+          src="https://img.shields.io/github/last-commit/${window.githubUser}/${repo.name}"
+        >
     `;
+}
 
-    const tbody = section.querySelector("tbody");
+async function renderCategory(category) {
+
+    let html = `
+
+    <section class="repo-category">
+
+      <h2>${category.name}</h2>
+
+      <p class="category-description">
+        ${category.description}
+      </p>
+
+      <table class="repo-table">
+
+        <thead>
+          <tr>
+            <th>Repository</th>
+            <th>Description</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+
+        <tbody>
+    `;
 
     for (const repoName of category.repos) {
 
-        const repo = await getRepo(repoName);
+        const repo =
+            await getRepo(repoName);
 
         if (!repo) continue;
 
-        const tag = await getLatestTag(repoName);
+        html += `
+            <tr>
 
-        const row = document.createElement("tr");
-
-        row.innerHTML = `
-            <td>
-                <a href="${repo.html_url}">
-                    ${repo.name}
+              <td>
+                <a
+                 href="${repo.html_url}"
+                 target="_blank"
+                >
+                  ${repo.name}
                 </a>
-            </td>
+              </td>
 
-            <td>
+              <td>
                 ${repo.description || ""}
-            </td>
+              </td>
 
-            <td>
-                ${
-                    tag
-                    ? `<img src="https://img.shields.io/badge/tag-${encodeURIComponent(tag.name)}-blue">`
-                    : "-"
-                }
-            </td>
+              <td>
+                ${createBadgeCell(repo)}
+              </td>
 
-            <td>
-                ${
-                    tag
-                    ? new Date(tag.date).toLocaleDateString()
-                    : "-"
-                }
-            </td>
+            </tr>
         `;
-
-        tbody.appendChild(row);
     }
 
-    return section;
+    html += `
+         </tbody>
+      </table>
+    </section>
+    `;
+
+    return html;
 }
 
 async function render() {
 
     const container =
-        document.getElementById("repos");
+        document.getElementById(
+            "repo-overview"
+        );
 
-    container.innerHTML = "";
+    let html = "";
 
     for (const category of window.repoCategories) {
-
-        container.appendChild(
-            await createTable(category)
+        html += await renderCategory(
+            category
         );
     }
+
+    container.innerHTML = html;
 }
 
 render();
