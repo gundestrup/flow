@@ -1,5 +1,11 @@
 # Borg-Collective Flow software overview
 
+<div id="repos">
+Loading repositories...
+</div>
+ 
+<script src="/assets/js/repos.js"></script>
+
 ## Jekyll plugins
 | Name  | Description | Latest Release |
 | ------------- | ------------- | ------------- |
