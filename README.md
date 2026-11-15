@@ -14,9 +14,11 @@
 
 {% for category in site.data.categories %}
  
+<section class="repo-category">
+ 
 <h2 id="{{ category.name | slugify }}">{{ category.name }}</h2>
  
-<p>{{ category.description }}</p>
+<p class="category-description">{{ category.description }}</p>
  
 <table class="repo-table">
  
@@ -36,6 +38,8 @@
  
 </tbody>
 </table>
+ 
+</section>
  
 {% endfor %}
 

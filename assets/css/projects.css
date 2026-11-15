@@ -1,3 +1,60 @@
+/* ---------- header brand / logo ---------- */
+
+header .brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding-right: 190px;
+}
+
+header .logo-link {
+    flex: 0 0 auto;
+}
+
+.site-logo {
+    display: block;
+    width: 64px;
+    height: 64px;
+    filter: drop-shadow(0 1px 1px rgba(0, 0, 0, .2));
+}
+
+header .brand-text {
+    min-width: 0;
+}
+
+header .brand-text p {
+    width: auto;
+    max-width: 460px;
+}
+
+/* ---------- table of contents ---------- */
+
+.toc ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    padding: 0;
+    margin: 0 0 1.5rem;
+}
+
+.toc a {
+    display: inline-block;
+    padding: .35rem .75rem;
+    border: 1px solid #c6d5de;
+    border-radius: 999px;
+    background: #fff;
+    font-size: .85em;
+    color: #069;
+}
+
+.toc a:hover {
+    border-color: #069;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+}
+
+/* ---------- categories ---------- */
+
 .repo-category {
     margin-bottom: 3rem;
 }
@@ -16,6 +73,10 @@
     text-align: left;
     padding: 0.75rem;
     border-bottom: 2px solid #ddd;
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    color: #61778b;
 }
 
 .repo-table td {
@@ -24,12 +85,27 @@
     vertical-align: middle;
 }
 
-.repo-table tr:hover {
-    background: #fafafa;
+.repo-table td:first-child {
+    white-space: nowrap;
 }
 
-.repo-table img {
-    margin-right: .25rem;
+.repo-table td:last-child {
+    white-space: nowrap;
+    text-align: right;
+}
+
+.repo-table td:last-child img {
+    display: block;
+    height: 20px;
+    margin: 0 0 .3rem auto;
+}
+
+.repo-table td:last-child img:last-child {
+    margin-bottom: 0;
+}
+
+.repo-table tr:hover {
+    background: #fafafa;
 }
 
 .repo-table a {
