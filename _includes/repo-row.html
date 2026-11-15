@@ -1,19 +1,28 @@
-{% assign entry = site.data.repos | where: "name", include.repo | first %}
+{% assign want = include.repo | strip | downcase %}
+{% assign entry = site.data.repos | where: "slug", want | first %}
 
 <tr>
 
   <td>
+    {% if entry %}
     <a href="{{ entry.url }}">
       {{ entry.name }}
     </a>
+    {% else %}
+    {{ include.repo }}
+    {% endif %}
   </td>
 
   <td>
+    {% if entry %}
     {{ entry.description }}
+    {% else %}
+    <em>repository not found</em>
+    {% endif %}
   </td>
 
   <td>
-
+    {% if entry %}
     <img
       alt="version"
       src="https://img.shields.io/github/v/tag/gundestrup/{{ entry.name }}?sort=semver">
@@ -21,7 +30,7 @@
     <img
       alt="updated"
       src="https://img.shields.io/github/last-commit/gundestrup/{{ entry.name }}">
-
+    {% endif %}
   </td>
 
 </tr>

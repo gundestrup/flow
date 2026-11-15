@@ -1,8 +1,20 @@
 # Borg-Collective Flow software overview
 
+<nav class="toc">
+ 
+<h2>Categories</h2>
+ 
+<ul>
+{% for category in site.data.categories %}
+<li><a href="#{{ category.name | slugify }}">{{ category.name }}</a> ({{ category.repos.size }})</li>
+{% endfor %}
+</ul>
+ 
+</nav>
+
 {% for category in site.data.categories %}
  
-<h2>{{ category.name }}</h2>
+<h2 id="{{ category.name | slugify }}">{{ category.name }}</h2>
  
 <p>{{ category.description }}</p>
  

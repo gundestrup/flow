@@ -8,6 +8,7 @@
       "name": "JavaScript"
     },
     "repositoryTopics": null,
+    "slug": "flow",
     "url": "https://github.com/gundestrup/flow"
   },
   {
@@ -68,6 +69,7 @@
         "name": "wysiwyg-editor"
       }
     ],
+    "slug": "logo-generator-flow",
     "url": "https://github.com/gundestrup/logo-generator-flow"
   },
   {
@@ -125,6 +127,7 @@
         "name": "web-performance"
       }
     ],
+    "slug": "website-vitals-flow",
     "url": "https://github.com/gundestrup/website-vitals-flow"
   },
   {
@@ -149,6 +152,7 @@
         "name": "rubygem"
       }
     ],
+    "slug": "jekyll-paginate-v3",
     "url": "https://github.com/gundestrup/jekyll-paginate-v3"
   },
   {
@@ -215,6 +219,7 @@
         "name": "security"
       }
     ],
+    "slug": "knowledge-ba46-flow",
     "url": "https://github.com/gundestrup/Knowledge-BA46-Flow"
   },
   {
@@ -254,6 +259,7 @@
         "name": "jekyll-minify-flow"
       }
     ],
+    "slug": "jekyll-minify-flow",
     "url": "https://github.com/gundestrup/jekyll-minify-flow"
   },
   {
@@ -265,7 +271,20 @@
       "name": "TypeScript"
     },
     "repositoryTopics": null,
+    "slug": "knowledge-base-mcp-server",
     "url": "https://github.com/gundestrup/knowledge-base-mcp-server"
+  },
+  {
+    "description": "Local privat knowlege sharing between projects and tools",
+    "homepageUrl": "",
+    "isArchived": false,
+    "name": "engineering-memory",
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "repositoryTopics": null,
+    "slug": "engineering-memory",
+    "url": "https://github.com/gundestrup/engineering-memory"
   },
   {
     "description": "Medical calculator",
@@ -292,6 +311,7 @@
         "name": "ruby"
       }
     ],
+    "slug": "medicalc",
     "url": "https://github.com/gundestrup/MediCalc"
   },
   {
@@ -313,6 +333,7 @@
         "name": "sidecar"
       }
     ],
+    "slug": "pgdog-dynamic-config",
     "url": "https://github.com/gundestrup/pgdog-dynamic-config"
   },
   {
@@ -340,6 +361,7 @@
         "name": "jekyll"
       }
     ],
+    "slug": "jekyll-documents",
     "url": "https://github.com/gundestrup/jekyll-documents"
   },
   {
@@ -391,6 +413,7 @@
         "name": "docker-migration"
       }
     ],
+    "slug": "stateful-docker-migration-flow",
     "url": "https://github.com/gundestrup/stateful-docker-migration-flow"
   },
   {
@@ -418,6 +441,7 @@
         "name": "xml"
       }
     ],
+    "slug": "j2xml",
     "url": "https://github.com/gundestrup/j2xml"
   },
   {
@@ -460,6 +484,7 @@
         "name": "obsidian"
       }
     ],
+    "slug": "obsidian-research",
     "url": "https://github.com/gundestrup/obsidian-research"
   },
   {
@@ -511,6 +536,7 @@
         "name": "secrets-management"
       }
     ],
+    "slug": "cred-align-flow",
     "url": "https://github.com/gundestrup/cred-align-flow"
   },
   {
@@ -522,6 +548,7 @@
       "name": "Ruby"
     },
     "repositoryTopics": null,
+    "slug": "styles",
     "url": "https://github.com/gundestrup/styles"
   },
   {
@@ -533,6 +560,7 @@
       "name": "TypeScript"
     },
     "repositoryTopics": null,
+    "slug": "obsidian-image-converter",
     "url": "https://github.com/gundestrup/obsidian-image-converter"
   },
   {
@@ -569,6 +597,7 @@
         "name": "webp"
       }
     ],
+    "slug": "jekyll-imgflow",
     "url": "https://github.com/gundestrup/jekyll-imgflow"
   },
   {
@@ -596,6 +625,7 @@
         "name": "liquid"
       }
     ],
+    "slug": "jekyll-imgflow-vscode",
     "url": "https://github.com/gundestrup/jekyll-imgflow-vscode"
   },
   {
@@ -626,6 +656,7 @@
         "name": "jekyll"
       }
     ],
+    "slug": "jekyll-fingerprint-flow",
     "url": "https://github.com/gundestrup/jekyll-fingerprint-flow"
   },
   {
@@ -656,6 +687,7 @@
         "name": "icons"
       }
     ],
+    "slug": "jekyll-icon-flow",
     "url": "https://github.com/gundestrup/jekyll-icon-flow"
   },
   {
@@ -689,6 +721,7 @@
         "name": "jekyll"
       }
     ],
+    "slug": "jekyll-theme-flow",
     "url": "https://github.com/gundestrup/jekyll-theme-flow"
   },
   {
@@ -725,6 +758,7 @@
         "name": "ruby"
       }
     ],
+    "slug": "jekyll-compress-flow",
     "url": "https://github.com/gundestrup/jekyll-compress-flow"
   },
   {
@@ -761,6 +795,7 @@
         "name": "search"
       }
     ],
+    "slug": "jekyll-client-search",
     "url": "https://github.com/gundestrup/jekyll-client-search"
   },
   {
@@ -772,6 +807,7 @@
       "name": "Shell"
     },
     "repositoryTopics": null,
+    "slug": "synology-docker",
     "url": "https://github.com/gundestrup/synology-docker"
   },
   {
@@ -781,6 +817,7 @@
     "name": "knowledge-base-mcp-server-IDE-flow",
     "primaryLanguage": null,
     "repositoryTopics": null,
+    "slug": "knowledge-base-mcp-server-ide-flow",
     "url": "https://github.com/gundestrup/knowledge-base-mcp-server-IDE-flow"
   },
   {
@@ -792,6 +829,7 @@
       "name": "Ruby"
     },
     "repositoryTopics": null,
+    "slug": "rails_error_dashboard",
     "url": "https://github.com/gundestrup/rails_error_dashboard"
   },
   {
@@ -822,7 +860,18 @@
         "name": "zotero"
       }
     ],
+    "slug": "tools",
     "url": "https://github.com/gundestrup/tools"
+  },
+  {
+    "description": "",
+    "homepageUrl": "",
+    "isArchived": false,
+    "name": "scripts",
+    "primaryLanguage": null,
+    "repositoryTopics": null,
+    "slug": "scripts",
+    "url": "https://github.com/gundestrup/scripts"
   },
   {
     "description": "Samlet information for Sundhedsplatformen - SmartPhrases osv",
@@ -831,6 +880,7 @@
     "name": "Sundhedsplatformen",
     "primaryLanguage": null,
     "repositoryTopics": null,
+    "slug": "sundhedsplatformen",
     "url": "https://github.com/gundestrup/Sundhedsplatformen"
   },
   {
@@ -852,6 +902,7 @@
         "name": "rails"
       }
     ],
+    "slug": "recall",
     "url": "https://github.com/gundestrup/recall"
   },
   {
@@ -876,6 +927,7 @@
         "name": "ruby-on-rails"
       }
     ],
+    "slug": "enterprise",
     "url": "https://github.com/gundestrup/enterprise"
   },
   {
@@ -887,6 +939,7 @@
       "name": "Ruby"
     },
     "repositoryTopics": null,
+    "slug": "acts_as_authenticated",
     "url": "https://github.com/gundestrup/acts_as_authenticated"
   },
   {
@@ -896,6 +949,7 @@
     "name": "datasciencecoursera",
     "primaryLanguage": null,
     "repositoryTopics": null,
+    "slug": "datasciencecoursera",
     "url": "https://github.com/gundestrup/datasciencecoursera"
   },
   {
@@ -907,6 +961,7 @@
       "name": "Ruby"
     },
     "repositoryTopics": null,
+    "slug": "scutwork",
     "url": "https://github.com/gundestrup/scutwork"
   },
   {
@@ -918,7 +973,20 @@
       "name": "PHP"
     },
     "repositoryTopics": null,
+    "slug": "lscache-joomla",
     "url": "https://github.com/gundestrup/lscache-joomla"
+  },
+  {
+    "description": "Homelab setup",
+    "homepageUrl": "",
+    "isArchived": false,
+    "name": "homelab",
+    "primaryLanguage": {
+      "name": "Shell"
+    },
+    "repositoryTopics": null,
+    "slug": "homelab",
+    "url": "https://github.com/gundestrup/homelab"
   },
   {
     "description": "Repository for Programming Assignment 2 for R Programming on Coursera",
@@ -929,6 +997,7 @@
       "name": "R"
     },
     "repositoryTopics": null,
+    "slug": "programmingassignment2",
     "url": "https://github.com/gundestrup/ProgrammingAssignment2"
   },
   {
@@ -940,6 +1009,7 @@
       "name": "Ruby"
     },
     "repositoryTopics": null,
+    "slug": "exception_notification",
     "url": "https://github.com/gundestrup/exception_notification"
   }
 ]

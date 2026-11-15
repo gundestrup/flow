@@ -24,7 +24,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
 
-          gh repo list gundestrup --limit 200 --json name,description,url,homepageUrl,isArchived,primaryLanguage,repositoryTopics | jq --sort-keys '.' > _data/repos.json
+          gh repo list gundestrup --limit 200 --json name,description,url,homepageUrl,isArchived,primaryLanguage,repositoryTopics | jq --sort-keys '[.[] | . + {slug: (.name | ascii_downcase)}]' > _data/repos.json
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v7
