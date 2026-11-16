@@ -1,6 +1,9 @@
 theme: jekyll-theme-modernist
 title: Borg-Collective Flow
 description: An overview page of the different Borg-Collective flow solutions
+url: https://gundestrup.github.io
+baseurl: /flow
 
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
