@@ -1,11 +1,62 @@
 [
   {
+    "description": "This MCP server provides tools for listing and retrieving content from different knowledge bases.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "name": "knowledge-base-mcp-server",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "slug": "knowledge-base-mcp-server",
+    "url": "https://github.com/gundestrup/knowledge-base-mcp-server",
+    "version": null
+  },
+  {
+    "description": "ImgFlow provides automatic image optimization for Jekyll with support for multiple providers (Sharp, Imgproxy, ImageMagick, LibVips), multiple formats (AVIF, WebP, PNG, JPG), and responsive image generation with modern picture tags.",
+    "homepageUrl": "https://github.com/gundestrup/jekyll-imgflow",
+    "isArchived": false,
+    "name": "jekyll-imgflow",
+    "primaryLanguage": {
+      "name": "Ruby"
+    },
+    "repositoryTopics": [
+      {
+        "name": "image-processing"
+      },
+      {
+        "name": "jekyll-plugin"
+      },
+      {
+        "name": "ruby"
+      },
+      {
+        "name": "rubygem"
+      },
+      {
+        "name": "avif"
+      },
+      {
+        "name": "jekyll"
+      },
+      {
+        "name": "responsive-images"
+      },
+      {
+        "name": "webp"
+      }
+    ],
+    "slug": "jekyll-imgflow",
+    "url": "https://github.com/gundestrup/jekyll-imgflow",
+    "version": "v0.4.6"
+  },
+  {
     "description": "Borg-Collective Flow software overview",
     "homepageUrl": "",
     "isArchived": false,
     "name": "flow",
     "primaryLanguage": {
-      "name": "HTML"
+      "name": "CSS"
     },
     "repositoryTopics": null,
     "slug": "flow",
@@ -267,32 +318,6 @@
     "slug": "jekyll-minify-flow",
     "url": "https://github.com/gundestrup/jekyll-minify-flow",
     "version": "v1.2.1"
-  },
-  {
-    "description": "This MCP server provides tools for listing and retrieving content from different knowledge bases.",
-    "homepageUrl": "",
-    "isArchived": false,
-    "name": "knowledge-base-mcp-server",
-    "primaryLanguage": {
-      "name": "TypeScript"
-    },
-    "repositoryTopics": null,
-    "slug": "knowledge-base-mcp-server",
-    "url": "https://github.com/gundestrup/knowledge-base-mcp-server",
-    "version": null
-  },
-  {
-    "description": "Local privat knowlege sharing between projects and tools",
-    "homepageUrl": "",
-    "isArchived": false,
-    "name": "engineering-memory",
-    "primaryLanguage": {
-      "name": "HTML"
-    },
-    "repositoryTopics": null,
-    "slug": "engineering-memory",
-    "url": "https://github.com/gundestrup/engineering-memory",
-    "version": null
   },
   {
     "description": "Medical calculator",
@@ -581,45 +606,7 @@
     "version": null
   },
   {
-    "description": "ImgFlow provides automatic image optimization for Jekyll with support for multiple providers (Sharp, Imgproxy, ImageMagick, LibVips), multiple formats (AVIF, WebP, PNG, JPG), and responsive image generation with modern picture tags.",
-    "homepageUrl": "https://github.com/gundestrup/jekyll-imgflow",
-    "isArchived": false,
-    "name": "jekyll-imgflow",
-    "primaryLanguage": {
-      "name": "Ruby"
-    },
-    "repositoryTopics": [
-      {
-        "name": "image-processing"
-      },
-      {
-        "name": "jekyll-plugin"
-      },
-      {
-        "name": "ruby"
-      },
-      {
-        "name": "rubygem"
-      },
-      {
-        "name": "avif"
-      },
-      {
-        "name": "jekyll"
-      },
-      {
-        "name": "responsive-images"
-      },
-      {
-        "name": "webp"
-      }
-    ],
-    "slug": "jekyll-imgflow",
-    "url": "https://github.com/gundestrup/jekyll-imgflow",
-    "version": "v0.4.5"
-  },
-  {
-    "description": "VS Code companion for jekyll-imgflow — Liquid tag completion for imgflow, documents and icon tags",
+    "description": "VS Code companion for Jekyll— Liquid tag autocompletion for imgflow, documents and icon tags",
     "homepageUrl": "https://github.com/gundestrup/jekyll-imgflow-vscode",
     "isArchived": false,
     "name": "jekyll-imgflow-vscode",
@@ -892,17 +879,6 @@
     "version": null
   },
   {
-    "description": "",
-    "homepageUrl": "",
-    "isArchived": false,
-    "name": "scripts",
-    "primaryLanguage": null,
-    "repositoryTopics": null,
-    "slug": "scripts",
-    "url": "https://github.com/gundestrup/scripts",
-    "version": "v0.1.0"
-  },
-  {
     "description": "Samlet information for Sundhedsplatformen - SmartPhrases osv",
     "homepageUrl": "https://github.com/gundestrup/Sundhedsplatformen",
     "isArchived": false,
@@ -1010,19 +986,6 @@
     "repositoryTopics": null,
     "slug": "lscache-joomla",
     "url": "https://github.com/gundestrup/lscache-joomla",
-    "version": null
-  },
-  {
-    "description": "Homelab setup",
-    "homepageUrl": "",
-    "isArchived": false,
-    "name": "homelab",
-    "primaryLanguage": {
-      "name": "Shell"
-    },
-    "repositoryTopics": null,
-    "slug": "homelab",
-    "url": "https://github.com/gundestrup/homelab",
     "version": null
   },
   {
