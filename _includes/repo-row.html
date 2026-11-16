@@ -26,12 +26,14 @@
     <a href="{{ entry.url }}/commits">
       <img
         alt="updated"
+        width="96" height="20" loading="lazy"
         src="https://img.shields.io/github/last-commit/gundestrup/{{ entry.name }}?style=flat-square&label=updated">
     </a>
 
     <a href="{{ entry.url }}/tags">
       <img
         alt="version"
+        width="90" height="20" loading="lazy"
         src="https://img.shields.io/badge/version-{{ entry.version | default: "none" | replace: "-", "--" }}-007ec6?style=flat-square">
     </a>
     {% endif %}

@@ -6,3 +6,12 @@
 <link rel="manifest" href="{{ '/assets/images/site.webmanifest' | relative_url }}" />
 
 <link rel="stylesheet" href="{{ '/assets/css/projects.css' | relative_url }}">
+
+<!-- The theme's style.css @imports Lato via the old css?family= endpoint
+     without font-display. This css2 link is parsed later, so its
+     @font-face rules (display: swap) win; media=print keeps the extra
+     stylesheet non-render-blocking. -->
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300;1,700&display=swap"
+      media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300;1,700&display=swap"></noscript>
