@@ -1,18 +1,5 @@
 [
   {
-    "description": "This MCP server provides tools for listing and retrieving content from different knowledge bases.",
-    "homepageUrl": "",
-    "isArchived": false,
-    "name": "knowledge-base-mcp-server",
-    "primaryLanguage": {
-      "name": "TypeScript"
-    },
-    "repositoryTopics": null,
-    "slug": "knowledge-base-mcp-server",
-    "url": "https://github.com/gundestrup/knowledge-base-mcp-server",
-    "version": null
-  },
-  {
     "description": "Borg-Collective Flow software overview",
     "homepageUrl": "",
     "isArchived": false,
@@ -23,6 +10,19 @@
     "repositoryTopics": null,
     "slug": "flow",
     "url": "https://github.com/gundestrup/flow",
+    "version": null
+  },
+  {
+    "description": "This MCP server provides tools for listing and retrieving content from different knowledge bases.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "name": "knowledge-base-mcp-server",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "slug": "knowledge-base-mcp-server",
+    "url": "https://github.com/gundestrup/knowledge-base-mcp-server",
     "version": null
   },
   {
