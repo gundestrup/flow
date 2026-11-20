@@ -1,31 +1,5 @@
 [
   {
-    "description": "Borg-Collective Flow software overview",
-    "homepageUrl": "",
-    "isArchived": false,
-    "name": "flow",
-    "primaryLanguage": {
-      "name": "CSS"
-    },
-    "repositoryTopics": null,
-    "slug": "flow",
-    "url": "https://github.com/gundestrup/flow",
-    "version": null
-  },
-  {
-    "description": "This MCP server provides tools for listing and retrieving content from different knowledge bases.",
-    "homepageUrl": "",
-    "isArchived": false,
-    "name": "knowledge-base-mcp-server",
-    "primaryLanguage": {
-      "name": "TypeScript"
-    },
-    "repositoryTopics": null,
-    "slug": "knowledge-base-mcp-server",
-    "url": "https://github.com/gundestrup/knowledge-base-mcp-server",
-    "version": null
-  },
-  {
     "description": "ImgFlow provides automatic image optimization for Jekyll with support for multiple providers (Sharp, Imgproxy, ImageMagick, LibVips), multiple formats (AVIF, WebP, PNG, JPG), and responsive image generation with modern picture tags.",
     "homepageUrl": "https://github.com/gundestrup/jekyll-imgflow",
     "isArchived": false,
@@ -62,6 +36,85 @@
     "slug": "jekyll-imgflow",
     "url": "https://github.com/gundestrup/jekyll-imgflow",
     "version": "v0.4.6"
+  },
+  {
+    "description": "Safely migrate vendor-UI or docker-run containers into reviewed, per-container Docker Compose projects — without data loss",
+    "homepageUrl": "",
+    "isArchived": false,
+    "name": "stateful-docker-migration-flow",
+    "primaryLanguage": {
+      "name": "Shell"
+    },
+    "repositoryTopics": [
+      {
+        "name": "bash"
+      },
+      {
+        "name": "docker"
+      },
+      {
+        "name": "docker-compose"
+      },
+      {
+        "name": "migration"
+      },
+      {
+        "name": "nas"
+      },
+      {
+        "name": "portainer"
+      },
+      {
+        "name": "synology"
+      },
+      {
+        "name": "truenas"
+      },
+      {
+        "name": "dockge"
+      },
+      {
+        "name": "komodo"
+      },
+      {
+        "name": "podman"
+      },
+      {
+        "name": "synology-dsm"
+      },
+      {
+        "name": "docker-migration"
+      }
+    ],
+    "slug": "stateful-docker-migration-flow",
+    "url": "https://github.com/gundestrup/stateful-docker-migration-flow",
+    "version": "v0.0.1-alpha"
+  },
+  {
+    "description": "Borg-Collective Flow software overview",
+    "homepageUrl": "",
+    "isArchived": false,
+    "name": "flow",
+    "primaryLanguage": {
+      "name": "CSS"
+    },
+    "repositoryTopics": null,
+    "slug": "flow",
+    "url": "https://github.com/gundestrup/flow",
+    "version": null
+  },
+  {
+    "description": "This MCP server provides tools for listing and retrieving content from different knowledge bases.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "name": "knowledge-base-mcp-server",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "slug": "knowledge-base-mcp-server",
+    "url": "https://github.com/gundestrup/knowledge-base-mcp-server",
+    "version": null
   },
   {
     "description": "KBM-flow (Go CLI + local web dashboard, alpha): (1) knowledge curator for knowledge-base-mcp-server — scans Markdown, LLM-assisted fixes, human-reviewed applies; (2) dev dashboard — GitHub/Forgejo PRs & CI, Sonar/Semgrep/Codecov/CodeFactor, gem/npm/Node drift. Read-only.",
@@ -274,59 +327,6 @@
     "slug": "recall",
     "url": "https://github.com/gundestrup/recall",
     "version": null
-  },
-  {
-    "description": "Safely migrate vendor-UI or docker-run containers into reviewed, per-container Docker Compose projects — without data loss",
-    "homepageUrl": "",
-    "isArchived": false,
-    "name": "stateful-docker-migration-flow",
-    "primaryLanguage": {
-      "name": "Shell"
-    },
-    "repositoryTopics": [
-      {
-        "name": "bash"
-      },
-      {
-        "name": "docker"
-      },
-      {
-        "name": "docker-compose"
-      },
-      {
-        "name": "migration"
-      },
-      {
-        "name": "nas"
-      },
-      {
-        "name": "portainer"
-      },
-      {
-        "name": "synology"
-      },
-      {
-        "name": "truenas"
-      },
-      {
-        "name": "dockge"
-      },
-      {
-        "name": "komodo"
-      },
-      {
-        "name": "podman"
-      },
-      {
-        "name": "synology-dsm"
-      },
-      {
-        "name": "docker-migration"
-      }
-    ],
-    "slug": "stateful-docker-migration-flow",
-    "url": "https://github.com/gundestrup/stateful-docker-migration-flow",
-    "version": "v0.0.1-alpha"
   },
   {
     "description": "Tools / scripts that are helpful",
