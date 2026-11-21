@@ -1,5 +1,31 @@
 [
   {
+    "description": "Self-hosted Rails error dashboard for full ownership and zero recurring cost.",
+    "homepageUrl": "https://anjanj.github.io/rails_error_dashboard/",
+    "isArchived": false,
+    "name": "rails_error_dashboard",
+    "primaryLanguage": {
+      "name": "Ruby"
+    },
+    "repositoryTopics": null,
+    "slug": "rails_error_dashboard",
+    "url": "https://github.com/gundestrup/rails_error_dashboard",
+    "version": null
+  },
+  {
+    "description": "Borg-Collective Flow software overview",
+    "homepageUrl": "",
+    "isArchived": false,
+    "name": "flow",
+    "primaryLanguage": {
+      "name": "CSS"
+    },
+    "repositoryTopics": null,
+    "slug": "flow",
+    "url": "https://github.com/gundestrup/flow",
+    "version": null
+  },
+  {
     "description": "ImgFlow provides automatic image optimization for Jekyll with support for multiple providers (Sharp, Imgproxy, ImageMagick, LibVips), multiple formats (AVIF, WebP, PNG, JPG), and responsive image generation with modern picture tags.",
     "homepageUrl": "https://github.com/gundestrup/jekyll-imgflow",
     "isArchived": false,
@@ -89,19 +115,6 @@
     "slug": "stateful-docker-migration-flow",
     "url": "https://github.com/gundestrup/stateful-docker-migration-flow",
     "version": "v0.0.1-alpha"
-  },
-  {
-    "description": "Borg-Collective Flow software overview",
-    "homepageUrl": "",
-    "isArchived": false,
-    "name": "flow",
-    "primaryLanguage": {
-      "name": "CSS"
-    },
-    "repositoryTopics": null,
-    "slug": "flow",
-    "url": "https://github.com/gundestrup/flow",
-    "version": null
   },
   {
     "description": "This MCP server provides tools for listing and retrieving content from different knowledge bases.",
@@ -837,19 +850,6 @@
     "slug": "jekyll-imgflow-vscode",
     "url": "https://github.com/gundestrup/jekyll-imgflow-vscode",
     "version": "v0.2.7"
-  },
-  {
-    "description": "Self-hosted Rails error dashboard for full ownership and zero recurring cost.",
-    "homepageUrl": "https://anjanj.github.io/rails_error_dashboard/",
-    "isArchived": false,
-    "name": "rails_error_dashboard",
-    "primaryLanguage": {
-      "name": "Ruby"
-    },
-    "repositoryTopics": null,
-    "slug": "rails_error_dashboard",
-    "url": "https://github.com/gundestrup/rails_error_dashboard",
-    "version": null
   },
   {
     "description": "Official repository for CSL 1.0 citation styles.",
