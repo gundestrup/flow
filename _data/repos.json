@@ -1,45 +1,76 @@
 [
   {
-    "description": "Medical calculator",
-    "homepageUrl": "https://github.com/gundestrup/MediCalc",
+    "description": "jekyll-minify-flow — Jekyll plugin that minifies HTML, CSS, JS and SCSS output using the minify-html Rust crate and Lightning CSS. Fork of jekyll-minify-html-rs.",
+    "homepageUrl": "",
     "isArchived": false,
-    "name": "MediCalc",
+    "name": "jekyll-minify-flow",
     "primaryLanguage": {
-      "name": "HTML"
+      "name": "Ruby"
     },
     "repositoryTopics": [
       {
-        "name": "agpl-3-0"
+        "name": "jekyll-plugin"
       },
       {
-        "name": "calculator"
+        "name": "scss"
       },
       {
-        "name": "medical"
+        "name": "css-minifier"
       },
       {
-        "name": "rails"
+        "name": "gem"
+      },
+      {
+        "name": "html-minifier"
+      },
+      {
+        "name": "lightningcss"
+      },
+      {
+        "name": "minification"
       },
       {
         "name": "ruby"
+      },
+      {
+        "name": "jekyll-minify-flow"
       }
     ],
-    "slug": "medicalc",
-    "url": "https://github.com/gundestrup/MediCalc",
-    "version": "v0.1.0"
+    "slug": "jekyll-minify-flow",
+    "url": "https://github.com/gundestrup/jekyll-minify-flow",
+    "version": "v1.2.1"
   },
   {
-    "description": "This MCP server provides tools for listing and retrieving content from different knowledge bases.",
-    "homepageUrl": "",
+    "description": "Content-hash URL cache busting for Jekyll HTML output — drop-in post-write ?v= fingerprinting, no template changes",
+    "homepageUrl": "https://github.com/gundestrup/jekyll-fingerprint-flow",
     "isArchived": false,
-    "name": "knowledge-base-mcp-server",
+    "name": "jekyll-fingerprint-flow",
     "primaryLanguage": {
-      "name": "TypeScript"
+      "name": "Ruby"
     },
-    "repositoryTopics": null,
-    "slug": "knowledge-base-mcp-server",
-    "url": "https://github.com/gundestrup/knowledge-base-mcp-server",
-    "version": null
+    "repositoryTopics": [
+      {
+        "name": "jekyll-plugin"
+      },
+      {
+        "name": "cache-busting"
+      },
+      {
+        "name": "fingerprinting"
+      },
+      {
+        "name": "ruby"
+      },
+      {
+        "name": "rubygem"
+      },
+      {
+        "name": "jekyll"
+      }
+    ],
+    "slug": "jekyll-fingerprint-flow",
+    "url": "https://github.com/gundestrup/jekyll-fingerprint-flow",
+    "version": "v0.1.2"
   },
   {
     "description": "Iconpack gem for Jekyll",
@@ -72,6 +103,35 @@
     "slug": "jekyll-icon-flow",
     "url": "https://github.com/gundestrup/jekyll-icon-flow",
     "version": "v0.2.1"
+  },
+  {
+    "description": "Medical calculator",
+    "homepageUrl": "https://github.com/gundestrup/MediCalc",
+    "isArchived": false,
+    "name": "MediCalc",
+    "primaryLanguage": {
+      "name": "HTML"
+    },
+    "repositoryTopics": [
+      {
+        "name": "agpl-3-0"
+      },
+      {
+        "name": "calculator"
+      },
+      {
+        "name": "medical"
+      },
+      {
+        "name": "rails"
+      },
+      {
+        "name": "ruby"
+      }
+    ],
+    "slug": "medicalc",
+    "url": "https://github.com/gundestrup/MediCalc",
+    "version": "v0.1.0"
   },
   {
     "description": "ImgFlow provides automatic image optimization for Jekyll with support for multiple providers (Sharp, Imgproxy, ImageMagick, LibVips), multiple formats (AVIF, WebP, PNG, JPG), and responsive image generation with modern picture tags.",
@@ -178,6 +238,32 @@
     "slug": "knowledge-ba46-flow",
     "url": "https://github.com/gundestrup/Knowledge-BA46-Flow",
     "version": "v0.6.0"
+  },
+  {
+    "description": "Borg-Collective Flow software overview",
+    "homepageUrl": "",
+    "isArchived": false,
+    "name": "flow",
+    "primaryLanguage": {
+      "name": "CSS"
+    },
+    "repositoryTopics": null,
+    "slug": "flow",
+    "url": "https://github.com/gundestrup/flow",
+    "version": null
+  },
+  {
+    "description": "This MCP server provides tools for listing and retrieving content from different knowledge bases.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "name": "knowledge-base-mcp-server",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "slug": "knowledge-base-mcp-server",
+    "url": "https://github.com/gundestrup/knowledge-base-mcp-server",
+    "version": null
   },
   {
     "description": "Official repository for CSL 1.0 citation styles.",
@@ -351,38 +437,6 @@
     "version": "v0.7.9"
   },
   {
-    "description": "Content-hash URL cache busting for Jekyll HTML output — drop-in post-write ?v= fingerprinting, no template changes",
-    "homepageUrl": "https://github.com/gundestrup/jekyll-fingerprint-flow",
-    "isArchived": false,
-    "name": "jekyll-fingerprint-flow",
-    "primaryLanguage": {
-      "name": "Ruby"
-    },
-    "repositoryTopics": [
-      {
-        "name": "jekyll-plugin"
-      },
-      {
-        "name": "cache-busting"
-      },
-      {
-        "name": "fingerprinting"
-      },
-      {
-        "name": "ruby"
-      },
-      {
-        "name": "rubygem"
-      },
-      {
-        "name": "jekyll"
-      }
-    ],
-    "slug": "jekyll-fingerprint-flow",
-    "url": "https://github.com/gundestrup/jekyll-fingerprint-flow",
-    "version": "v0.1.2"
-  },
-  {
     "description": "Jekyll Themes using Bulma and Alpinejs.",
     "homepageUrl": "https://github.com/gundestrup/jekyll-theme-flow",
     "isArchived": false,
@@ -429,60 +483,6 @@
     "slug": "obsidian-image-converter",
     "url": "https://github.com/gundestrup/obsidian-image-converter",
     "version": null
-  },
-  {
-    "description": "Borg-Collective Flow software overview",
-    "homepageUrl": "",
-    "isArchived": false,
-    "name": "flow",
-    "primaryLanguage": {
-      "name": "CSS"
-    },
-    "repositoryTopics": null,
-    "slug": "flow",
-    "url": "https://github.com/gundestrup/flow",
-    "version": null
-  },
-  {
-    "description": "jekyll-minify-flow — Jekyll plugin that minifies HTML, CSS, JS and SCSS output using the minify-html Rust crate and Lightning CSS. Fork of jekyll-minify-html-rs.",
-    "homepageUrl": "",
-    "isArchived": false,
-    "name": "jekyll-minify-flow",
-    "primaryLanguage": {
-      "name": "Ruby"
-    },
-    "repositoryTopics": [
-      {
-        "name": "jekyll-plugin"
-      },
-      {
-        "name": "scss"
-      },
-      {
-        "name": "css-minifier"
-      },
-      {
-        "name": "gem"
-      },
-      {
-        "name": "html-minifier"
-      },
-      {
-        "name": "lightningcss"
-      },
-      {
-        "name": "minification"
-      },
-      {
-        "name": "ruby"
-      },
-      {
-        "name": "jekyll-minify-flow"
-      }
-    ],
-    "slug": "jekyll-minify-flow",
-    "url": "https://github.com/gundestrup/jekyll-minify-flow",
-    "version": "v1.2.1"
   },
   {
     "description": "A dynamic sidecar for pgdog that updates the config and userfile",
