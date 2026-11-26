@@ -1,5 +1,157 @@
 [
   {
+    "description": "Fetch research article metadata from PubMed, PMC, DOI, arXiv, and Web of Science links automatically.",
+    "homepageUrl": "https://github.com/gundestrup/obsidian-research",
+    "isArchived": false,
+    "name": "obsidian-research",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": [
+      {
+        "name": "arxiv"
+      },
+      {
+        "name": "obsidian-plugin"
+      },
+      {
+        "name": "pmc"
+      },
+      {
+        "name": "pubmed"
+      },
+      {
+        "name": "research"
+      },
+      {
+        "name": "web-of-science"
+      },
+      {
+        "name": "typescript"
+      },
+      {
+        "name": "citations"
+      },
+      {
+        "name": "doi"
+      },
+      {
+        "name": "obsidian"
+      }
+    ],
+    "slug": "obsidian-research",
+    "url": "https://github.com/gundestrup/obsidian-research",
+    "version": "1.4.15"
+  },
+  {
+    "description": "J2XML",
+    "homepageUrl": "http://www.eshiol.it/k3u",
+    "isArchived": false,
+    "name": "j2xml",
+    "primaryLanguage": {
+      "name": "PHP"
+    },
+    "repositoryTopics": [
+      {
+        "name": "export"
+      },
+      {
+        "name": "import"
+      },
+      {
+        "name": "joomla-plugin"
+      },
+      {
+        "name": "php"
+      },
+      {
+        "name": "xml"
+      }
+    ],
+    "slug": "j2xml",
+    "url": "https://github.com/gundestrup/j2xml",
+    "version": "v4.5.8"
+  },
+  {
+    "description": "jekyll-minify-flow — Jekyll plugin that minifies HTML, CSS, JS and SCSS output using the minify-html Rust crate and Lightning CSS. Fork of jekyll-minify-html-rs.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "name": "jekyll-minify-flow",
+    "primaryLanguage": {
+      "name": "Ruby"
+    },
+    "repositoryTopics": [
+      {
+        "name": "jekyll-plugin"
+      },
+      {
+        "name": "scss"
+      },
+      {
+        "name": "css-minifier"
+      },
+      {
+        "name": "gem"
+      },
+      {
+        "name": "html-minifier"
+      },
+      {
+        "name": "lightningcss"
+      },
+      {
+        "name": "minification"
+      },
+      {
+        "name": "ruby"
+      },
+      {
+        "name": "jekyll-minify-flow"
+      }
+    ],
+    "slug": "jekyll-minify-flow",
+    "url": "https://github.com/gundestrup/jekyll-minify-flow",
+    "version": "v1.2.1"
+  },
+  {
+    "description": "Search plugin for Jekyll, using (MiniSearch, ElasticLunr) and semantic search via LLM",
+    "homepageUrl": "https://github.com/gundestrup/jekyll-client-search",
+    "isArchived": false,
+    "name": "jekyll-client-search",
+    "primaryLanguage": {
+      "name": "Ruby"
+    },
+    "repositoryTopics": [
+      {
+        "name": "elasticlunr"
+      },
+      {
+        "name": "jekyll-plugin"
+      },
+      {
+        "name": "minisearch"
+      },
+      {
+        "name": "semantic-search"
+      },
+      {
+        "name": "ruby"
+      },
+      {
+        "name": "rubygem"
+      },
+      {
+        "name": "jekyll"
+      },
+      {
+        "name": "search"
+      }
+    ],
+    "slug": "jekyll-client-search",
+    "url": "https://github.com/gundestrup/jekyll-client-search",
+    "version": "v0.5.1"
+  },
+  {
     "description": "This MCP server provides tools for listing and retrieving content from different knowledge bases.",
     "homepageUrl": "",
     "isArchived": false,
@@ -10,6 +162,19 @@
     "repositoryTopics": null,
     "slug": "knowledge-base-mcp-server",
     "url": "https://github.com/gundestrup/knowledge-base-mcp-server",
+    "version": null
+  },
+  {
+    "description": "Borg-Collective Flow software overview",
+    "homepageUrl": "",
+    "isArchived": false,
+    "name": "flow",
+    "primaryLanguage": {
+      "name": "CSS"
+    },
+    "repositoryTopics": null,
+    "slug": "flow",
+    "url": "https://github.com/gundestrup/flow",
     "version": null
   },
   {
@@ -75,85 +240,6 @@
     "slug": "rails_error_dashboard",
     "url": "https://github.com/gundestrup/rails_error_dashboard",
     "version": null
-  },
-  {
-    "description": "Search plugin for Jekyll, using (MiniSearch, ElasticLunr) and semantic search via LLM",
-    "homepageUrl": "https://github.com/gundestrup/jekyll-client-search",
-    "isArchived": false,
-    "name": "jekyll-client-search",
-    "primaryLanguage": {
-      "name": "Ruby"
-    },
-    "repositoryTopics": [
-      {
-        "name": "elasticlunr"
-      },
-      {
-        "name": "jekyll-plugin"
-      },
-      {
-        "name": "minisearch"
-      },
-      {
-        "name": "semantic-search"
-      },
-      {
-        "name": "ruby"
-      },
-      {
-        "name": "rubygem"
-      },
-      {
-        "name": "jekyll"
-      },
-      {
-        "name": "search"
-      }
-    ],
-    "slug": "jekyll-client-search",
-    "url": "https://github.com/gundestrup/jekyll-client-search",
-    "version": "v0.5.1"
-  },
-  {
-    "description": "jekyll-minify-flow — Jekyll plugin that minifies HTML, CSS, JS and SCSS output using the minify-html Rust crate and Lightning CSS. Fork of jekyll-minify-html-rs.",
-    "homepageUrl": "",
-    "isArchived": false,
-    "name": "jekyll-minify-flow",
-    "primaryLanguage": {
-      "name": "Ruby"
-    },
-    "repositoryTopics": [
-      {
-        "name": "jekyll-plugin"
-      },
-      {
-        "name": "scss"
-      },
-      {
-        "name": "css-minifier"
-      },
-      {
-        "name": "gem"
-      },
-      {
-        "name": "html-minifier"
-      },
-      {
-        "name": "lightningcss"
-      },
-      {
-        "name": "minification"
-      },
-      {
-        "name": "ruby"
-      },
-      {
-        "name": "jekyll-minify-flow"
-      }
-    ],
-    "slug": "jekyll-minify-flow",
-    "url": "https://github.com/gundestrup/jekyll-minify-flow",
-    "version": "v1.2.1"
   },
   {
     "description": "Flexible, configurable pagination for Jekyll websites.",
@@ -622,50 +708,6 @@
     "version": "v0.6.0"
   },
   {
-    "description": "Fetch research article metadata from PubMed, PMC, DOI, arXiv, and Web of Science links automatically.",
-    "homepageUrl": "https://github.com/gundestrup/obsidian-research",
-    "isArchived": false,
-    "name": "obsidian-research",
-    "primaryLanguage": {
-      "name": "TypeScript"
-    },
-    "repositoryTopics": [
-      {
-        "name": "arxiv"
-      },
-      {
-        "name": "obsidian-plugin"
-      },
-      {
-        "name": "pmc"
-      },
-      {
-        "name": "pubmed"
-      },
-      {
-        "name": "research"
-      },
-      {
-        "name": "web-of-science"
-      },
-      {
-        "name": "typescript"
-      },
-      {
-        "name": "citations"
-      },
-      {
-        "name": "doi"
-      },
-      {
-        "name": "obsidian"
-      }
-    ],
-    "slug": "obsidian-research",
-    "url": "https://github.com/gundestrup/obsidian-research",
-    "version": "1.4.15"
-  },
-  {
     "description": "VS Code companion for Jekyll— Liquid tag autocompletion for imgflow, documents and icon tags",
     "homepageUrl": "https://github.com/gundestrup/jekyll-imgflow-vscode",
     "isArchived": false,
@@ -693,19 +735,6 @@
     "slug": "jekyll-imgflow-vscode",
     "url": "https://github.com/gundestrup/jekyll-imgflow-vscode",
     "version": "v0.2.7"
-  },
-  {
-    "description": "Borg-Collective Flow software overview",
-    "homepageUrl": "",
-    "isArchived": false,
-    "name": "flow",
-    "primaryLanguage": {
-      "name": "CSS"
-    },
-    "repositoryTopics": null,
-    "slug": "flow",
-    "url": "https://github.com/gundestrup/flow",
-    "version": null
   },
   {
     "description": "Medical calculator",
@@ -860,35 +889,6 @@
     "slug": "recall",
     "url": "https://github.com/gundestrup/recall",
     "version": null
-  },
-  {
-    "description": "J2XML",
-    "homepageUrl": "http://www.eshiol.it/k3u",
-    "isArchived": false,
-    "name": "j2xml",
-    "primaryLanguage": {
-      "name": "PHP"
-    },
-    "repositoryTopics": [
-      {
-        "name": "export"
-      },
-      {
-        "name": "import"
-      },
-      {
-        "name": "joomla-plugin"
-      },
-      {
-        "name": "php"
-      },
-      {
-        "name": "xml"
-      }
-    ],
-    "slug": "j2xml",
-    "url": "https://github.com/gundestrup/j2xml",
-    "version": "v4.5.8"
   },
   {
     "description": "Update Synology's Docker version to the latest Docker",
