@@ -1,5 +1,18 @@
 [
   {
+    "description": "Borg-Collective Flow software overview",
+    "homepageUrl": "",
+    "isArchived": false,
+    "name": "flow",
+    "primaryLanguage": {
+      "name": "CSS"
+    },
+    "repositoryTopics": null,
+    "slug": "flow",
+    "url": "https://github.com/gundestrup/flow",
+    "version": null
+  },
+  {
     "description": "Fetch research article metadata from PubMed, PMC, DOI, arXiv, and Web of Science links automatically.",
     "homepageUrl": "https://github.com/gundestrup/obsidian-research",
     "isArchived": false,
@@ -162,19 +175,6 @@
     "repositoryTopics": null,
     "slug": "knowledge-base-mcp-server",
     "url": "https://github.com/gundestrup/knowledge-base-mcp-server",
-    "version": null
-  },
-  {
-    "description": "Borg-Collective Flow software overview",
-    "homepageUrl": "",
-    "isArchived": false,
-    "name": "flow",
-    "primaryLanguage": {
-      "name": "CSS"
-    },
-    "repositoryTopics": null,
-    "slug": "flow",
-    "url": "https://github.com/gundestrup/flow",
     "version": null
   },
   {
