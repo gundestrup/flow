@@ -1,5 +1,69 @@
 [
   {
+    "description": "Browser compression gem for Jekyll - Brotli (br) - Zstandard (zst) - Gzip (gz)",
+    "homepageUrl": "https://github.com/gundestrup/jekyll-compress-flow",
+    "isArchived": false,
+    "name": "jekyll-compress-flow",
+    "primaryLanguage": {
+      "name": "Ruby"
+    },
+    "repositoryTopics": [
+      {
+        "name": "brotli"
+      },
+      {
+        "name": "compression"
+      },
+      {
+        "name": "jekyll-plugin"
+      },
+      {
+        "name": "rubygem"
+      },
+      {
+        "name": "zstd"
+      },
+      {
+        "name": "gzip"
+      },
+      {
+        "name": "jekyll"
+      },
+      {
+        "name": "ruby"
+      }
+    ],
+    "slug": "jekyll-compress-flow",
+    "url": "https://github.com/gundestrup/jekyll-compress-flow",
+    "version": "v0.2.2"
+  },
+  {
+    "description": "⚡️ Convert, compress, resize, annotate, markup, draw, crop, rotate, flip, align images directly in Obsidian. Drag-resize, rename with variables, batch process. WEBP, JPG, PNG, HEIC, TIF.",
+    "homepageUrl": "",
+    "isArchived": false,
+    "name": "obsidian-image-converter",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "repositoryTopics": null,
+    "slug": "obsidian-image-converter",
+    "url": "https://github.com/gundestrup/obsidian-image-converter",
+    "version": null
+  },
+  {
+    "description": "Self-hosted Rails error dashboard for full ownership and zero recurring cost.",
+    "homepageUrl": "https://anjanj.github.io/rails_error_dashboard/",
+    "isArchived": false,
+    "name": "rails_error_dashboard",
+    "primaryLanguage": {
+      "name": "Ruby"
+    },
+    "repositoryTopics": null,
+    "slug": "rails_error_dashboard",
+    "url": "https://github.com/gundestrup/rails_error_dashboard",
+    "version": null
+  },
+  {
     "description": "Borg-Collective Flow software overview",
     "homepageUrl": "",
     "isArchived": false,
@@ -229,19 +293,6 @@
     "version": "v0.0.2"
   },
   {
-    "description": "Self-hosted Rails error dashboard for full ownership and zero recurring cost.",
-    "homepageUrl": "https://anjanj.github.io/rails_error_dashboard/",
-    "isArchived": false,
-    "name": "rails_error_dashboard",
-    "primaryLanguage": {
-      "name": "Ruby"
-    },
-    "repositoryTopics": null,
-    "slug": "rails_error_dashboard",
-    "url": "https://github.com/gundestrup/rails_error_dashboard",
-    "version": null
-  },
-  {
     "description": "Flexible, configurable pagination for Jekyll websites.",
     "homepageUrl": "",
     "isArchived": false,
@@ -362,44 +413,6 @@
     "slug": "jekyll-documents",
     "url": "https://github.com/gundestrup/jekyll-documents",
     "version": "v0.7.9"
-  },
-  {
-    "description": "Browser compression gem for Jekyll - Brotli (br) - Zstandard (zst) - Gzip (gz)",
-    "homepageUrl": "https://github.com/gundestrup/jekyll-compress-flow",
-    "isArchived": false,
-    "name": "jekyll-compress-flow",
-    "primaryLanguage": {
-      "name": "Ruby"
-    },
-    "repositoryTopics": [
-      {
-        "name": "brotli"
-      },
-      {
-        "name": "compression"
-      },
-      {
-        "name": "jekyll-plugin"
-      },
-      {
-        "name": "rubygem"
-      },
-      {
-        "name": "zstd"
-      },
-      {
-        "name": "gzip"
-      },
-      {
-        "name": "jekyll"
-      },
-      {
-        "name": "ruby"
-      }
-    ],
-    "slug": "jekyll-compress-flow",
-    "url": "https://github.com/gundestrup/jekyll-compress-flow",
-    "version": "v0.2.2"
   },
   {
     "description": "Iconpack gem for Jekyll",
@@ -764,19 +777,6 @@
     "slug": "medicalc",
     "url": "https://github.com/gundestrup/MediCalc",
     "version": "v0.1.0"
-  },
-  {
-    "description": "⚡️ Convert, compress, resize, annotate, markup, draw, crop, rotate, flip, align images directly in Obsidian. Drag-resize, rename with variables, batch process. WEBP, JPG, PNG, HEIC, TIF.",
-    "homepageUrl": "",
-    "isArchived": false,
-    "name": "obsidian-image-converter",
-    "primaryLanguage": {
-      "name": "TypeScript"
-    },
-    "repositoryTopics": null,
-    "slug": "obsidian-image-converter",
-    "url": "https://github.com/gundestrup/obsidian-image-converter",
-    "version": null
   },
   {
     "description": "A dynamic sidecar for pgdog that updates the config and userfile",
